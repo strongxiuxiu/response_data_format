@@ -28,6 +28,8 @@ sys_code = {
 }
 
 
+
+
 class MyError(Exception):  # 自定义的报错信息展示 MyError
     def __init__(self, msg):
         self.msg = msg
